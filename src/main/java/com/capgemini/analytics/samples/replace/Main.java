@@ -11,7 +11,8 @@ public class Main {
     public static void main(String[] args) throws Exception {
 
         // Dataset
-        String text = "Cap Gemini consultant and Big Data developer with strong xp on Hadoop, mostly Hadoop FS. BI background (DataStage, Cognos, Oracle, DB2). Worked on multiple Watson technologies, including Watson API and WEX.";
+        //String text = "Cap Gemini consultant and Big Data developer with strong xp on Hadoop, mostly Hadoop FS. BI background (DataStage, Cognos, Oracle, DB2). Worked on multiple Watson technologies, including Watson API and WEX.";
+        String text = "Engineer. English. Fluent en.";
         Map<String,String> synonyms = Tools.loadDictionary("src/main/resources/dictionary");
         if(args.length > 0 && args[0].length() > 0) text = args[0];
 
